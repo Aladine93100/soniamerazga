@@ -3,8 +3,7 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-bottom: 40px;
-  background: url(noir_decors.jpg);
+  background-color: #282828; 
 }
 
 /* Welcome*/
@@ -77,10 +76,11 @@ body {
 .navbar-wrapper .navbar {
   padding-left: 0px;
   padding-right: 0px;
+  background-color: yellow;
 }
 
 .navbar-brand {
-  color: white !important;
+  color: yellow !important;
 }
 
 
@@ -318,14 +318,13 @@ body {
   background-color: rgba(138,138,140,0.5); 
 }
 
-.contain-bleu {
-  box-shadow: 0 0 80px 10px #23117F;
-}
-
 .text-bleu {
-  background-color: rgba(0,5,255,0.5);
-  box-shadow: 0 0 80px 10px #0005FF;
-  color: white;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 10px;
+  box-shadow: 0 0 80px 10px #888888;
+  colour: #888888;
 }
 
 .contain-monde {
@@ -333,10 +332,12 @@ body {
 }
 
 .text-monde {
-  background-color: rgba(255,108,10,0.5);
-  box-shadow: 0 0 80px 10px #FF6C0A ;
-  color: white;
-
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 10px;
+  box-shadow: 0 0 80px 10px #888888;
+  colour: #888888;
 }
 
 /*page paint */
@@ -392,11 +393,11 @@ body {
 /* Page Hijra */
 
 .hijra {
-  color: yellow !important;
+  color: #FF0066 !important;
 }
 
 .hijra:hover {
-  color: #FF0066 !important;
+  color: yellow !important;
 }
 
 .jumbotron {
